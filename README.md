@@ -13,7 +13,7 @@ Check how it works on your own: ()
 ## Technologies used
 
     HTML
-    CSS (styled-components)
+    CSS
     Java Script
     React.js
     react-redux
