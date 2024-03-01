@@ -12,10 +12,10 @@ Check how it works on your own: ()
 
 ## Technologies used
 
-HTML, CSS, Java, Script, React.js
+*HTML *CSS *JavaScript *React.js
 
 ## Setup and Usage
 
-Clone this repo to your desktop and run npm install to install all the
-dependencies. Once the dependencies are installed, you can run npm start to
+Clone this repo to your desktop and run `npm install()` to install all the
+dependencies. Once the dependencies are installed, you can run `npm start()` to
 start the application. You will then be able to acces it at localhost:3000
