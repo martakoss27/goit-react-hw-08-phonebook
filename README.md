@@ -10,7 +10,7 @@ contacts from your list by name.
 
 Check how it works on your own: ()
 
-# Technologies used
+## Technologies used
 
     HTML
     CSS (styled-components)
