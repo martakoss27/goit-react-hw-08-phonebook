@@ -2,7 +2,7 @@
 
 ## Simple phonebook app
 
-App that allows you to manage your contacts.Register or login to get your own
+App that allows you to manage your contacts. Register or login to get your own
 phonebook. You can add and remove contacts (name and number of each contact will
 be displayed on the list). You can search contacts from your list by name.
 
