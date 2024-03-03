@@ -1,0 +1,10 @@
+.logo {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  justify-content: center;
+  margin: 2rem 0;
+  gap: 1rem;
+  align-items: center;
+}
