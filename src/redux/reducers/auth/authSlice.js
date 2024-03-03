@@ -2,11 +2,14 @@ import Notiflix from 'notiflix';
 import { createSlice } from '@reduxjs/toolkit';
 
 import { checkUser, login, logout, register } from './operations';
-import { useAddUser } from './../../../hook/useAddUser';
+//import { useAddUser } from './../../../hook/useAddUser';
 
 const initialState = {
   isLoggedIn: false,
-  user: null,
+  user: {
+    name: null,
+    email: null,
+  },
   token: null,
   isLoading: false,
   isRefreshing: false,
@@ -39,28 +42,20 @@ export const authSlice = createSlice({
     builder
       .addCase(register.fulfilled, (state, action) => {
         state.isLoggedIn = true;
-        state.user = action.payload.user.name;
+        state.user = action.payload.user;
         state.token = action.payload.token;
         state.isRefreshing = false;
         state.isLoading = false;
-        useAddUser({
-          name: action.payload.user.name,
-          email: action.payload.user.email,
-        });
         Notiflix.Notify.success(
           `Nice to meet you ${action.payload.user.name}!`
         );
       })
       .addCase(login.fulfilled, (state, action) => {
         state.isLoggedIn = true;
-        state.user = action.payload.user.name;
+        state.user = action.payload.user;
         state.token = action.payload.token;
         state.isRefreshing = false;
         state.isLoading = false;
-        useAddUser({
-          name: action.payload.user.name,
-          email: action.payload.user.email,
-        });
         Notiflix.Notify.success(`Welcome back ${action.payload.user.name}`);
       })
       .addCase(logout.fulfilled, (state, action) => {
@@ -70,7 +65,7 @@ export const authSlice = createSlice({
       .addCase(checkUser.fulfilled, (state, action) => {
         state.isLoggedIn = true;
         state.isRefreshing = false;
-        state.user = action.payload.name;
+        state.user = action.payload;
         state.isLoading = false;
       })
       .addMatcher(isPendingAction, handlePending)
