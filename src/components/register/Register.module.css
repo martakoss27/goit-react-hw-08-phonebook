@@ -38,10 +38,6 @@ label:focus-within {
   border: none;
 }
 
-.input:focus + label {
-  background-color: #962f51;
-}
-
 .btn {
   padding: 3% 5%;
   font-size: 1.1rem;
