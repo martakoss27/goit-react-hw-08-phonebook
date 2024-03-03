@@ -21,6 +21,10 @@
   cursor: pointer;
 }
 
+label:active {
+  background-color: #962f51;
+}
+
 label:focus-within {
   background-color: #962f51;
 }

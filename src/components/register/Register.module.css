@@ -21,6 +21,10 @@
   cursor: pointer;
 }
 
+label:active {
+  background-color: #962f51;
+}
+
 label:focus-within {
   background-color: #962f51;
 }
@@ -32,6 +36,10 @@ label:focus-within {
   font-weight: 600;
   border-radius: 7px;
   border: none;
+}
+
+.input:focus + label {
+  background-color: #962f51;
 }
 
 .btn {
