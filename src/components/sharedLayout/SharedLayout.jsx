@@ -15,11 +15,13 @@ import UserMenu from '../userMenu/UserMenu';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#FFFFFF',
+      main: '#bf4f74',
     },
     secondary: {
-      main: '#bf4f74',
-      darker: '#962f51',
+      main: '#962f51',
+    },
+    light: {
+      main: '#d66088',
     },
   },
 });
@@ -27,7 +29,7 @@ const theme = createTheme({
 const AuthenticatedNav = () => (
   <>
     <NavLink to="contacts">
-      <Button variant="contained" size="large">
+      <Button variant="contained" size="large" color="secondary">
         Contacts
       </Button>
     </NavLink>

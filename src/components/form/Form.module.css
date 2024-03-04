@@ -15,8 +15,8 @@
   width: 100%;
   padding: 3% 10%;
   color: white;
-  border-radius: 7px;
-  background-color: #005eda;
+  border-radius: 3px;
+  background-color: #bf4f74;
   font-weight: 600;
   cursor: pointer;
 }
@@ -30,15 +30,15 @@
   width: 100%;
   padding: 3% 10%;
   color: white;
-  border-radius: 7px;
-  background-color: #005eda;
+  border-radius: 3px;
+  background-color: #bf4f74;
   font-weight: 600;
   cursor: pointer;
   position: relative;
 }
 
 .labelNumber:focus-within {
-  background-color: #004aaa;
+  background-color: #962f51;
 }
 
 .labelNumber:focus-within .labelInfo {
@@ -46,15 +46,15 @@
 }
 
 label:focus-within {
-  background-color: #004aaa;
+  background-color: #962f51;
 }
 
 .input {
   outline: none;
-  color: #005eda;
+  color: #bf4f74;
   padding: 2%;
   font-weight: 600;
-  border-radius: 7px;
+  border-radius: 3px;
   border: none;
   width: 200px;
   height: 40px;
@@ -62,10 +62,10 @@ label:focus-within {
 
 .inputNumber input {
   outline: none;
-  color: #005eda;
+  color: #bf4f74;
   padding: 2%;
   font-weight: 600;
-  border-radius: 7px;
+  border-radius: 3px;
   border: none;
   width: 200px;
   height: 40px;
@@ -73,7 +73,7 @@ label:focus-within {
 
 .inputNumber select {
   outline: none;
-  color: #005eda;
+  color: #bf4f74;
   padding: 2%;
   font-weight: 600;
   border-radius: 7px;
@@ -106,7 +106,7 @@ label:focus-within {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 300;
   color: white;
-  background-color: #005eda;
+  background-color: #bf4f74;
   border-radius: 7px;
   border: 2px dotted white;
   padding: 10px;
@@ -118,7 +118,7 @@ label:focus-within {
 
 .inputNumber img {
   outline: none;
-  color: #005eda;
+  color: #bf4f74;
   padding: 2%;
   font-weight: 600;
   border-radius: 7px;
@@ -142,18 +142,18 @@ label:focus-within {
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #005eda;
+  background-color: #bf4f74;
   border: none;
   border-radius: 7px;
   box-shadow: 0 9px #999;
 }
 
 .btn:hover {
-  background-color: #004aaa;
+  background-color: #962f51;
 }
 
 .btn:active {
-  background-color: #004aaa;
+  background-color: #962f51;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }

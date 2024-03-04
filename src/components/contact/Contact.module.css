@@ -8,7 +8,7 @@
   padding: 3% 10%;
   color: white;
   border-radius: 7px;
-  background-color: #005eda;
+  background-color: #d66088;
   font-weight: 600;
 }
 
@@ -23,7 +23,7 @@
   color: #fff;
   background-color: #ff0000c0;
   border: none;
-  border-radius: 7px;
+  border-radius: 3px;
 }
 
 .btn:hover {

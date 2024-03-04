@@ -69,7 +69,7 @@ export default function Form() {
           value={value}
           onChange={setValue}
           className={css.inputNumber}
-          defaultCountry="DE"
+          defaultCountry="PL"
           name="tel"
           autoComplete="none"
         />
