@@ -2,13 +2,16 @@
 
 ## Simple phonebook app
 
-App that allows you to manage your contacts. Register or login to get your own
+App that allows you to manage your contacts. Register and login to get your own
 phonebook. You can add and remove contacts (name and number of each contact will
 be displayed on the list). You can search contacts from your list by name.
 
 ## Live page
 
-Check how it works on your own: ()
+Check how it works on your own: (
+https://martakoss27.github.io/goit-react-hw-08-phonebook/) You can test
+functionality of this app using example account: ADMIN, e-mail:
+shixt17hev@ejgs.co, password: shixt17hev@ejgs.co
 
 ## Technologies used
 
